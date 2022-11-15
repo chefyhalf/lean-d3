@@ -17,7 +17,7 @@
 git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/lean/luci-app-unblockneteasemusic
 # git clone -b 18.06 https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy
 # sed -i '$a src-git bypass https://github.com/kiddin9/openwrt-bypass' feeds.conf.default
-sed -i '$a src-git bypass https://github.com/kiddin9/openwrt-passwall' feeds.conf.default
+sed -i '1i src-git passwall https://github.com/kiddin9/openwrt-passwall' feeds.conf.default
 # sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 # git clone https://github.com/liuran001/openwrt-packages/tree/packages/luci-theme-argon-lr package/lean/luci-theme-argon-lr
 # git clone https://github.com/immortalwrt/luci/tree/master/themes/luci-theme-openwrt-2020  package/lean/luci-theme-openwrt-2020
