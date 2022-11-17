@@ -27,8 +27,9 @@
 # git clone https://github.com/kiddin9/openwrt-bypass package/lean/luci-app-bypass
 # sed -i '1i src-git bigbighill https://github.com/bigbighill/openwrt-packages-1' feeds.conf.default
 # sed -i '1i src-git MrH723 https://github.com/MrH723/openwrt-packages' feeds.conf.default
-sed -i '$a src-git haibo https://github.com/haiibo/openwrt-packages' feeds.conf.default
+# sed -i '$a src-git haibo https://github.com/haiibo/openwrt-packages' feeds.conf.default
 # sed -i '$a src-git liuran001 https://github.com/liuran001/openwrt-packages' feeds.conf.default
 # sed -i '$a src-git small https://github.com/kenzok8/small-package' feeds.conf.default
 # sed -i '$a src-git kenzok8 https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 # sed -i '$a src-git NueXini https://github.com/NueXini/NueXini_Packages' feeds.conf.default
+sed -i '$a src-git reducehaibo https://github.com/chefyhalf/openwrt-packages' feeds.conf.default
