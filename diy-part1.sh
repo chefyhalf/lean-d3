@@ -15,7 +15,7 @@
 
 # Add a feed source
 # sed -i '$a src-git passwall https://github.com/OpenWrt-Actions/openwrt-package-lienol' feeds.conf.default
-sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
+# sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 # git clone https://github.com/Never2333/openwrt-luci-app-passwall package/lean/luci-app-passwall
 # sed -i '$a src-git bypass https://github.com/kiddin9/openwrt-bypass' feeds.conf.default
 # git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/lean/luci-app-unblockneteasemusic
