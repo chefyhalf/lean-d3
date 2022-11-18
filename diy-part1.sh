@@ -33,4 +33,4 @@
 # sed -i '$a src-git kenzok8 https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 # sed -i '$a src-git liuranplus https://github.com/chefyhalf/openwrt-packages' feeds.conf.default
 # git clone https://github.com/haiibo/openwrt-packages package/lean
-sed -i '1i src-git small8 https://github.com/chefyhalf/chefyhalf-small-package' feeds.conf.default
+sed -i '1i src-git chefyhalf https://github.com/chefyhalf/openwrt-packages' feeds.conf.default
