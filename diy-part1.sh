@@ -14,9 +14,9 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
+# echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # sed -i '$a src-git passwall https://github.com/OpenWrt-Actions/openwrt-package-lienol' feeds.conf.default
 # sed -i '$a src-git passwall https://github.com/kenzok8/small' feeds.conf.default
-# sed -i '$a src-git bypass https://github.com/kiddin9/openwrt-bypass' feeds.conf.default
 # git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/lean/luci-app-unblockneteasemusic
 # git clone https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy
 # sed -i '1i src-git passwall https://github.com/kiddin9/openwrt-passwall' feeds.conf.default
